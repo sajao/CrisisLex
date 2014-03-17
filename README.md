@@ -1,4 +1,4 @@
-crisislex
+CrisisLex
 =========
 
-CrisisLex: Your lexical resource in crises
+CrisisLex is a lexical resource. Its main application is to help collect crisis-related messages from Twitter.
