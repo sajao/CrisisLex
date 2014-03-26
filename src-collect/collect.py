@@ -1,3 +1,7 @@
+# CrisisLex
+# Author: Alexandra Olteanu
+# Check LICENSE for details about copyright.
+
 import sys
 import tweepy1 as t
 import utils
@@ -48,12 +52,14 @@ if __name__ == "__main__":
     pl.set_output(open(options.filename,"w"))
         
     if len(options.lexicon) == 0:
-        sys.exit("The lexicon argument is mandatory. Try from the script location: python collect.py -l ../data/lexicon-v1/crisislex_recommended_v1.txt")
+        sys.exit("It is mandatory to provide a lexicon. " +
+                 "Run the scrip with -h or --help to learn about options, or try from the script location: " +
+                 "python collect.py -l ../data/lexicon-v1/crisislex_recommended_v1.txt")
 
-    to_track = utils.get_terms(open(options.lexicon,"r"))
+    to_track = utils.get_query_terms(open(options.lexicon,"r"))
     
     if len(options.additional) > 0:
-        additional_terms = utils.get_terms(open(options.additional,"r"))
+        additional_terms = utils.get_query_terms(open(options.additional,"r"))
         to_track[0:0] = additional_terms
     
     #start tracking crisis-relevant tweets

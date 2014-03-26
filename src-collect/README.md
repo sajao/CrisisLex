@@ -9,21 +9,51 @@ Collects tweets containing the lexicon terms.
 **Parameters**
 
 ```
--h, --help : show this help message and exit
+Usage: collect.py [options]
 
--l FILE, --lexicon=FILE : Read lexicon from file. Expects one term per line.
-
--t FILE, --optional_terms=FILE : Read user defined terms from file. Expects one term per line.
-
--o FILE, --output=FILE : Write output to FILE. The expected format is .json
+Options:
+  -h, --help            show this help message and exit
+  -l FILE, --lexicon=FILE
+                        Read lexicon from file. Expects one term per line.
+  -t FILE, --optional_terms=FILE
+                        Read user defined terms from file. Expects one term
+                        per line.
+  -o FILE, --output=FILE
+                        Write output to FILE. The expected format is .json
 ```
 
 Adaptive data collection
 ------------------------
-Collects tweets containing the lexicon terms for a while, identifies new terms that describe the most prominent crisis
+Collects tweets containing the lexicon terms for a while, identifies new terms that describe the most prominent current crises, and resets the crawling with a new query that includes these new terms. 
 
 **Parameters**
 
+```
+Usage: adaptive_collect.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -l FILE, --lexicon=FILE
+                        Read lexicon from file. Expects one term per line.
+  -t FILE, --optional_terms=FILE
+                        Read user defined terms from file. Expects one term
+                        per line.
+  -o FILE, --output=FILE
+                        Write output to FILE. The expected format is .json
+  -p Hours, --pseudo_relevance_time=Hours
+                        Indicates how much time the crawler collects data
+                        before it adapts the query to the most prominent
+                        crisis
+  -a ADAPTIVE, --set_adaptive=ADAPTIVE
+                        Specifies if the query will be adapted to the most
+                        prominent crisis
+  -k HASHTAGS, --hashtags=HASHTAGS
+                        0 - use any type of terms; 1 - use only hashtags; 2 -
+                        combine hashtags with other terms
+  -n NEW_TERMS_NO, --new_terms_no=NEW_TERMS_NO
+                        Specifies the number of new terms to be added to the
+                        query
+```
 
 Requirements
 ------------

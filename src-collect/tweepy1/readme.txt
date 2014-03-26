@@ -1,1 +1,1 @@
-altered tweetpy to return the API response as json for status API. 
+Altered version of tweetpy to return the API response as json for status API. The latest release of tweepy is available at https://github.com/tweepy.
