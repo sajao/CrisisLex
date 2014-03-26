@@ -3,7 +3,7 @@ CrisisLex
 
 CrisisLex (http://CrisisLex.org/) is a lexical resource. Its main application is to help collect crisis-related messages from Twitter.
 
-This repository contains the following sub-directories:
+This repository contains the following sub-directories (Work-in-Progress):
 
 data/
 -----
