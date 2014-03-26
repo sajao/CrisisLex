@@ -7,18 +7,17 @@ Simple data collection
 Collects tweets containing the lexicon terms.
 
 **Parameters**
-  -h, --help            show this help message and exit
-  -l FILE, --lexicon=FILE
-                        Read lexicon from file. Expects one term per line.
-  -t FILE, --optional_terms=FILE
-                        Read user defined terms from file. Expects one term
-                        per line.
-  -o FILE, --output=FILE
-                        Write output to FILE. The expected format is .json
+  -h, --help : show this help message and exit
+
+  -l FILE, --lexicon=FILE : Read lexicon from file. Expects one term per line.
+
+  -t FILE, --optional_terms=FILE : Read user defined terms from file. Expects one term per line.
+  
+  -o FILE, --output=FILE : Write output to FILE. The expected format is .json
 
 Adaptive data collection
 ------------------------
-Collects tweets containing the lexicon terms for a while, identifies new terms that describe the most prominent crisis 
+Collects tweets containing the lexicon terms for a while, identifies new terms that describe the most prominent crisis
 
 **Parameters**
 
