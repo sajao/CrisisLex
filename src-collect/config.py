@@ -1,5 +1,5 @@
-#set api access
-CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
-ACCESS_KEY = ''
-ACCESS_SECRET= ''
+#set Twitter API access
+CONSUMER_KEY = '' # API key
+CONSUMER_SECRET = '' # API secret
+ACCESS_KEY = '' # Access token
+ACCESS_SECRET= '' # Access token secret
