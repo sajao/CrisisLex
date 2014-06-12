@@ -57,6 +57,7 @@ Options:
 
 Requirements
 ------------
+ * You need set of Twitter API keys. To obtain the API keys, you have to first create a Twitter app via https://dev.twitter.com/apps and edit the config.py file. 
  * Only Python 2.7 is supported
  * The adaptive data collector depends on the following external libraries:
     * [Scipy](http://www.scipy.org)
