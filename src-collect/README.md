@@ -56,7 +56,7 @@ Options:
 ```
 
 **Note:**
-* The addaptive collector implements a simple pseudo-relevance mechanism that ranks terms based on their frequency in the pseudo-relevant documents. For more details about it, or how to implement the label propagation based mechanism or the optimizations based on terms co-occurance check the [Crisislex paper](http://crisislex.org/icwsm2014_crisislex.pdf) or drop us an email. 
+* The addaptive collector implements a simple pseudo-relevance mechanism that ranks terms based on their frequency in the pseudo-relevant documents. For more details about it, or how to implement the label propagation based mechanism or the optimizations based on terms co-occurance check the [CrisisLex paper](http://crisislex.org/icwsm2014_crisislex.pdf) or drop us an email. 
 
 Requirements
 ------------
