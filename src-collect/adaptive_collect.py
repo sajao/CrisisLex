@@ -135,7 +135,7 @@ class AdaptiveListener(StreamListener):
         self.use_hashtags = use_hashtags
 
         self.start_time = datetime.datetime.now()
-        self.end_time = self.start_time + datetime.timedelta(minutes=learning_time)#(hours=learning_time)
+        self.end_time = self.start_time + datetime.timedelta(hours=learning_time)
         print "Learning interval between %s to %s"%(self.start_time,self.end_time)
 
         self.terms_fd = nltk.FreqDist()
