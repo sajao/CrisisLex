@@ -2,8 +2,6 @@
 # Author: Alexandra Olteanu
 # Check LICENSE for details about copyright.
 
-#TODO more extensive testing of the input parameters needs to be done, exception catching, etc. 
-
 import sys
 import utils
 
@@ -90,7 +88,7 @@ class AdaptiveListener(StreamListener):
     end_time = None
     terms = None
     terms_fd = None
-    terms_no = 10
+    terms_no = 0
     lex_set = None
     use_hashtags = True
 
@@ -109,8 +107,8 @@ class AdaptiveListener(StreamListener):
         if self.adaptive:
             if datetime.datetime.now()>self.end_time:
                 self.terms = self.terms_fd.keys()[:self.terms_no]
+                print "Adding to the query the following terms:"
                 print self.terms
-                print self.terms_fd
                 return False
 
             if self.use_hashtags:
@@ -120,7 +118,12 @@ class AdaptiveListener(StreamListener):
             return True
 
     def on_error(self, status):
-        print status
+        if status == 420:
+            print status, "Twitter API Error: Enhance your calm -- You are being rate limited"
+        elif status == 401:
+            print status, "Twitter API Error: Unauthorized -- Authentication credentials were missing or incorrect. Please double check config.py"
+        else:
+            print status
 
     def set_output(self, output_json):
         self.output = output_json
@@ -132,7 +135,7 @@ class AdaptiveListener(StreamListener):
         self.use_hashtags = use_hashtags
 
         self.start_time = datetime.datetime.now()
-        self.end_time = self.start_time + datetime.timedelta(hours=learning_time)
+        self.end_time = self.start_time + datetime.timedelta(minutes=learning_time)#(hours=learning_time)
         print "Learning interval between %s to %s"%(self.start_time,self.end_time)
 
         self.terms_fd = nltk.FreqDist()
@@ -151,18 +154,19 @@ if __name__ == "__main__":
     parser.add_option("-o", "--output", dest="filename",
                     help="Write output to FILE. The expected format is .json",
                     metavar="FILE", default="your_unnamed_collection.json")
-    parser.add_option("-p", "--pseudo_relevance_time", dest="prf_time",
+    parser.add_option("-p", "--time", dest="prf_time",
                     help="Indicates how much time the crawler collects data before it adapts the query to the most prominent crisis",
-                    metavar="Hours", type=int, default=3)
+                    metavar="Hours", type=int, default=1)
     parser.add_option("-a", "--set_adaptive", dest="adaptive",
                     help="Specifies if the query will be refined to the most prominent crises",
-                    default=True)
+                    action="store_true",
+                    default=False)
     parser.add_option("-k","--hashtags", dest = "hashtags",
                     help="0 - use any type of terms; 1 - use only hashtags; 2 - combine hashtags with other terms",
                     default=1)
-    parser.add_option("-n","--new_terms_no", dest="new_terms_no",
+    parser.add_option("-n","--new_terms", dest="new_terms_no",
                     help="Specifies the number of new terms to be added to the query",
-                    type=int, default=10)
+                    type=int, default=5)
 
     (options, args) = parser.parse_args()
 
@@ -178,7 +182,7 @@ if __name__ == "__main__":
     if len(options.lexicon) == 0:
         sys.exit("It is mandatory to provide a lexicon. " +
                  "Run the scrip with -h or --help to learn about options, or try from the script location: " +
-                 "python collect.py -l ../data/lexicon-v1/crisislex_recommended_v1.txt")
+                 "python adaptive_collect.py -l ../data/lexicon-v1/crisislex_recommended_v1.txt")
 
     # get lexicon terms
     to_track = utils.get_query_terms(open(options.lexicon,"r"))
