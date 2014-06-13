@@ -42,7 +42,6 @@ video explosion
 deepens death
 opposed flood
 help flood
-worsens
 died explosions
 marathon explosions
 flood relief
@@ -76,7 +75,6 @@ rubble
 another explosion
 confirmed dead
 rescue
-latest
 send prayers
 flood warnings
 tornado survivor
@@ -146,7 +144,6 @@ donate tornado
 retweet donate
 flood tornado
 casualties
-recovery
 climate change
 financial donations
 stay strong
@@ -154,7 +151,6 @@ dead hundreds
 major explosion
 bodies recovered
 waters recede
-medical
 response disasters
 victims donate
 unaccounted
@@ -164,7 +160,6 @@ prayers city
 accepting financial
 torrential
 bomber
-captured
 disasters txting
 explosion registered
 missing flood
@@ -209,7 +204,6 @@ need terrifying
 even scary
 cost deaths
 facing flood
-efforts
 deadly explosion
 dead missing
 floods force
@@ -252,7 +246,6 @@ explosion injured
 injured explosion
 responders killed
 explosion caught
-government
 city tornado
 help text
 name hurricane
@@ -272,7 +265,6 @@ following explosion
 remember lives
 tornado flood
 want help
-feared
 seconds bombing
 reported dead
 imminent
@@ -346,7 +338,6 @@ braces major
 government negligent
 attack
 hurricane
-climate
 rebuilt communities
 help rebuilt
 rebuilt
@@ -360,7 +351,6 @@ soldier
 waiting hurricane
 run massive
 high river
-assist
 terror
 memorial service
 terror attack

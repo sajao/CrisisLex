@@ -23,7 +23,12 @@ class PrintListener(StreamListener):
             return True
 
     def on_error(self, status):
-        print status
+        if status == 420:
+            print status, "Twitter API Error: Enhance your calm -- You are being rate limited"
+        elif status == 401:
+            print status, "Twitter API Error: Unauthorized -- Authentication credentials were missing or incorrect. Please double check config.py"
+        else:
+            print status
         
     def set_output(self, output_json):
         self.output = output_json
@@ -64,4 +69,9 @@ if __name__ == "__main__":
     
     #start tracking crisis-relevant tweets
     stream = Stream(auth, pl)
-    stream.filter(track=to_track[0:400])
+    try:
+        stream.filter(track=to_track[0:400])
+    except Exception as e:
+        print "The script have crashed with the following error: "
+        print e
+        print "\n Please check if your Twitter API keys are correct"
