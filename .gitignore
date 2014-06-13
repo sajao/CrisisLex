@@ -1,4 +1,6 @@
 *.py[cod]
+*.json
+
 
 # C extensions
 *.so
@@ -34,3 +36,5 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+.idea/
+*~
