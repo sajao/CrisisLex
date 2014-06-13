@@ -70,6 +70,7 @@ if __name__ == "__main__":
     #start tracking crisis-relevant tweets
     stream = Stream(auth, pl)
     try:
+        print "Collecting tweets ...."
         stream.filter(track=to_track[0:400])
     except Exception as e:
         print "The script have crashed with the following error: "
