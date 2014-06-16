@@ -1,6 +1,6 @@
 Contents of this directory
 ==========================
-(Work-in-Progress) The director contains scripts that allows anyone to easily collect tweets using CrisisLex. This can be done in two ways:
+The director contains scripts that allows anyone to easily collect tweets using CrisisLex. This can be done in two ways:
 
 Simple data collection
 ----------------------
