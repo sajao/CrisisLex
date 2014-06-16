@@ -185,7 +185,13 @@ if __name__ == "__main__":
                  "python adaptive_collect.py -l ../data/lexicon-v1/crisislex_recommended_v1.txt")
 
     # get lexicon terms
-    to_track = utils.get_query_terms(open(options.lexicon,"r"))
+    try:
+        to_track = utils.get_query_terms(open(options.lexicon,"r"))
+    except Exception as e:
+        print "The file path is seems to be wrong. Check the error below or run the script with -h. Please revise and restart the script"
+        print e
+        exit(0)
+
     # add user defined terms
     if len(options.additional) > 0:
         additional_terms = utils.get_query_terms(open(options.additional,"r"))
