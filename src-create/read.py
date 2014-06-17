@@ -46,10 +46,10 @@ def get_tweet_terms(tweet, stem_map = None, bigrams_map = None):
         terms_dict['%s'%w] = 'y'
 
     for b in bigrams:
-        terms_dict['%s-%s'%(b[0],b[1])] = 'y'
+        terms_dict['%s %s'%(b[0],b[1])] = 'y'
     return terms_dict
 
-def get_terms(ifile, stem_map = None, bigrams_map = None, min_occurence = 0.5):
+def get_terms(ifile, stem_map = None, bigrams_map = None, min_occurence = 0.1):
     tweets_cls = []
     tweets_type = []
     tweets_terms = []
@@ -60,11 +60,12 @@ def get_terms(ifile, stem_map = None, bigrams_map = None, min_occurence = 0.5):
     fd = nltk.FreqDist()
     r = csv.reader(ifile)
     print "Reading..."
+    headers = r.next()
     for tokens in r:
         id = tokens[0].strip()
         tweet = tokens[1].strip()
         cls = tokens[2].strip()
-        terms = get_tweet_terms(tweet, 2, stem_map, bigrams_map)
+        terms = get_tweet_terms(tweet, stem_map, bigrams_map)
 
         tweets_cls.append(cls)
         tweets_type.append(type)
