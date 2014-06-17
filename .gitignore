@@ -38,3 +38,8 @@ nosetests.xml
 .pydevproject
 .idea/
 *~
+
+src-collect/*.txt
+src-create/*.txt
+src-collect/*.csv
+src-create/*.csv
