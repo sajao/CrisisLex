@@ -41,6 +41,7 @@ def get_tweet_terms(tweet, stem_map = None, bigrams_map = None):
     bigrams = nltk.bigrams(filtered_words)
     words_set = set(filtered_words)
     terms_dict = {}
+
     for w in words_set:
         terms_dict['%s'%w] = 'y'
 
@@ -48,7 +49,7 @@ def get_tweet_terms(tweet, stem_map = None, bigrams_map = None):
         terms_dict['%s-%s'%(b[0],b[1])] = 'y'
     return terms_dict
 
-def get_terms(ifile, min_occurence = 0.5, stem_map = None, bigrams_map = None):
+def get_terms(ifile, stem_map = None, bigrams_map = None, min_occurence = 0.5):
     tweets_cls = []
     tweets_type = []
     tweets_terms = []
