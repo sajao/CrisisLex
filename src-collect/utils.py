@@ -2,9 +2,7 @@
 # Author: Alexandra Olteanu
 # Check LICENSE for details about copyright.
 
-import nltk
 import json
-
 
 #receives a string in json format
 #returns the textual content of a tweet
@@ -25,4 +23,3 @@ def get_query_terms(input_filename):
     for line in input_filename:
         query_terms.append(line.strip())
     return query_terms
-
