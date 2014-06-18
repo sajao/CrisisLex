@@ -15,6 +15,7 @@ import read
 import config
 import lexicon
 
+# estimates the maximum weighted independent set formed by terms in the co-occurrence graph
 def extract_max_weight_indep_terms_greedy(terms_weights, term_occ, freq, size, min_occ = 0.7):
     #build the occ_graph
     G = nx.Graph()
@@ -82,6 +83,7 @@ def discriminative_coverage(term_weights, hit_ratio = None):
 
     return weights
 
+#generates the lexicon
 def get_raw_lexicon(collections, tweets_terms, word_set, tweets_cls, word_occ, fd, mean_function, discriminative_function, use_hit_ratio = False):
     occs, fd_all = dict(), nltk.FreqDist()
     term_weights = dict()
@@ -154,6 +156,7 @@ def reverse_stemming(stem_map):
 def reverse_stemming_bigrams(stem_bigrams_map):
     return reverse_stemming(stem_bigrams_map)
 
+# writes the lexicon to file
 def save_lexicon(output, scored_terms, score):
     f1 = open(output, "w")
     f2 = open(output.split(".")[0]+"_with_scores_%s.txt"%score,"w")
