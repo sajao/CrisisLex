@@ -1,7 +1,7 @@
 
 Contents of this directory
 ==========================
-The director contains scripts that allows anyone to easily build a new lexicon for a domain of interest and collect data with it by using the collection scripts from src-collect folder. 
+The director contains scripts that allows anyone to easily build a new lexicon for a domain of interest and collect data with it by using the collection scripts from **src-collect** folder. 
 
 Build a Lexicon
 ------------------------
