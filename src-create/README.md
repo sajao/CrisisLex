@@ -5,7 +5,7 @@ The director contains scripts that allows anyone to easily build a new lexicon f
 
 Build a Lexicon
 ------------------------
-Given few Twitter collections from a domain of interest, it generates a lexicon consisting of a set of terms (unigrams and bigrams) that are discriminative for the targeted domain. 
+Given few Twitter collections from a domain of interest, the scripts generate a lexicon consisting of a set of terms (unigrams and bigrams) that are discriminative for the targeted domain. 
 
 **Parameters**
 
@@ -35,7 +35,7 @@ Options:
 ```
 
 **Note:**
-
+* If "--top_div" is set, the script constructs the co-occurance graph among discriminative terms and estimates the maximum weighted independent set on this graph, which is returned. To estimate this set we use a greedy that selects at each step the most discriminative terms and remove those that co-occur with them. If you are also interested in testing the heuristic based on identifying the minimum weighted coverage set check (Bar-Yehuda and Even 1985) or drop us an email. 
 
 Dependencies
 ------------
