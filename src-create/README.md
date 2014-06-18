@@ -1,7 +1,21 @@
 
 Contents of this directory
 ==========================
-(Work-in-Progress) The director contains scripts that allows anyone to easily build a new lexicon for a domain of interest and collect data with it. can be done in two ways:
+The director contains scripts that allows anyone to easily build a new lexicon for a domain of interest and collect data with it by using the collection scripts from src-collect folder. 
+
+Build a Lexicon
+------------------------
+Given few Twitter collections from a domain of interest, it generates a lexicon consisting of a set of terms (unigrams and bigrams) that are discriminative for the targeted domain. 
+
+**Parameters**
+
+```
+Usage: build.py [options]
+
+```
+
+**Note:**
+
 
 Dependencies
 ------------
