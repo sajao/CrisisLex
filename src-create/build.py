@@ -171,23 +171,19 @@ if __name__ == "__main__":
                   help="The statistical test used to score terms: pmi, chi2 or frequency (in the relevant documents)",
                   default = "pmi")
     parser.add_option("-r", "--hit_ratio", dest="hit_ratio",
-                  help="It normalizes the crisis score according to the number of relevant tweets the term matches on. \
-                  This is equivalent with terms frequency in the relevant documents, thus, \
-                  if you use it with the frequency scoring, the scores will not change.",
+                  help="It normalizes the crisis score according to the number of relevant tweets the term matches on.",
                   action="store_true", default = False)
     parser.add_option("-t","--top_div", dest="optimization",
-                  help="It filters out the terms with lower crisis scores that frequently co-occur with \
-                  with terms with higher scores",
+                  help="It filters out the terms with lower crisis scores that frequently co-occur with with terms with higher scores",
                   action="store_true", default = False)
     parser.add_option("-o", "--output", dest="output",
                   help="Write output to FILE. The script will write one term per line",
                   metavar="FILE", default = "your_lexicon.csv")
     parser.add_option("-i", "--input", dest="input",
-                  help="Read from FILE_PATH. The FILE_PATH is expected to point to \
-                  a director containing one sub-director per collection. It assumes \
-                  that each collection file contains a header and on each line has: \
-                  tweet id, tweet text, tweet class (which needs to be among the ones you set in the config.py file)",
+                  help="Read from FILE_PATH. The FILE_PATH is expected to point to a director containing one sub-director per collection. "
+                       "It assumes that each collection file contains a header and on each line has: tweet id, tweet text, tweet class (which needs to be among the ones you set in the config.py file)",
                   metavar="FILE", default = "")
+
     (options, args) = parser.parse_args()
 
     tweets_cls = dict()
