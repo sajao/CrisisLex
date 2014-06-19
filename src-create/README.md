@@ -36,7 +36,7 @@ Options:
 
 **Note:**
 * If "--top_div" is set, the script constructs the co-occurance graph among discriminative terms and estimates the maximum weighted independent set on this graph, which is returned. To estimate this set we use a greedy that selects at each step the most discriminative terms and remove those that co-occur with them. If you are also interested in testing the heuristic based on identifying the minimum weighted coverage set check (Bar-Yehuda and Even 1985) or drop us an email. 
-* We recommend you to provide more collections as the script favors terms that frequently appear in multiple collections. 
+* We recommend to generate the lexicon based on more collections as the script favors terms that frequently appear in multiple collections (e.g., divide your data based on sub-topics).
 
 Dependencies
 ------------
