@@ -20,6 +20,8 @@ Options:
                         per line.
   -o FILE, --output=FILE
                         Write output to FILE. The expected format is .json
+  -x PROXY, --set_proxy=PROXY
+                        Sets proxy
 ```
 
 Adaptive data collection
@@ -53,6 +55,8 @@ Options:
   -n NEW_TERMS_NO, --new_terms_no=NEW_TERMS_NO
                         Specifies the number of new terms to be added to the
                         query
+  -x PROXY, --set_proxy=PROXY
+                        Sets proxy
 ```
 
 **Note:**
