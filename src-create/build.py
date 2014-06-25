@@ -159,7 +159,7 @@ def reverse_stemming_bigrams(stem_bigrams_map):
 # writes the lexicon to file
 def save_lexicon(output, scored_terms, score):
     f1 = open(output, "w")
-    f2 = open(output.split(".")[0]+"_with_scores_%s.txt"%score,"w")
+    f2 = open(output[0:len(output)-len(output.split(".")[len(output.split("."))-1])-1]+"_with_scores_%s.txt"%score,"w")
     print "Saving the lexicon to file..."
     for t in scored_terms:
         print>>f1,t[0]
@@ -210,7 +210,7 @@ if __name__ == "__main__":
             labeled_data = open(c, "r")
             collections.add(c)
             tweets_cls[c], tweets_terms[c], wd_occ[c], word_set[c], fd[c] = read.get_terms(labeled_data, stem_map, bigrams_map)
-
+    print "Done with reading..."
     #set discriminative functions
     scoring_options = {'pmi':lexicon.Lexicon.pmi_polarity_metric,'chi2':lexicon.Lexicon.chi2_metric,'frequency':lexicon.Lexicon.frequency_metric}
     try:

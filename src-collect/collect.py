@@ -3,13 +3,16 @@
 # Check LICENSE for details about copyright.
 
 import sys
+import os
+
 import tweepy1 as t
-import utils
 from tweepy1.parsers import ModelParser
 from tweepy1 import StreamListener
 from tweepy1 import Stream
+
 from optparse import OptionParser
 
+import utils
 import config as c
 
 class PrintListener(StreamListener):
@@ -46,7 +49,15 @@ if __name__ == "__main__":
     parser.add_option("-o", "--output", dest="filename",
                   help="Write output to FILE. The expected format is .json",
                   metavar="FILE", default = "your_json_file.json")
+    parser.add_option("-x", "--set_proxy", dest="proxy",
+                  help="Sets proxy",
+                  metavar="PROXY", default = "")
     (options, args) = parser.parse_args()
+
+    #set proxy
+    if len(options.proxy) != 0:
+        os.environ['http_proxy']= options.proxy
+        os.environ['https_proxy']= options.proxy
 
     #authenticate
     auth = t.OAuthHandler(c.CONSUMER_KEY, c.CONSUMER_SECRET)

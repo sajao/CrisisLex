@@ -4,6 +4,7 @@
 
 import sys
 import utils
+import os
 
 #handling time
 import datetime
@@ -167,8 +168,16 @@ if __name__ == "__main__":
     parser.add_option("-n","--new_terms", dest="new_terms_no",
                     help="Specifies the number of new terms to be added to the query",
                     type=int, default=5)
+    parser.add_option("-x", "--set_proxy", dest="proxy",
+                    help="Sets proxy",
+                    metavar="PROXY", default = "")
 
     (options, args) = parser.parse_args()
+
+    #set proxy
+    if len(options.proxy) != 0:
+        os.environ['http_proxy']= options.proxy
+        os.environ['https_proxy']= options.proxy
 
     #authenticate
     auth = t.OAuthHandler(c.CONSUMER_KEY, c.CONSUMER_SECRET)
