@@ -63,7 +63,7 @@ if __name__ == "__main__":
     auth = t.OAuthHandler(c.CONSUMER_KEY, c.CONSUMER_SECRET)
     auth.set_access_token(c.ACCESS_KEY, c.ACCESS_SECRET)
     api = t.API(auth_handler=auth, parser = ModelParser())
-    
+
     pl = PrintListener()
     pl.set_output(open(options.filename,"w"))
         
@@ -83,7 +83,9 @@ if __name__ == "__main__":
     if len(options.additional) > 0:
         additional_terms = utils.get_query_terms(open(options.additional,"r"))
         to_track[0:0] = additional_terms
-    
+
+    print "Connecting to the stream ...."
+
     #start tracking crisis-relevant tweets
     stream = Stream(auth, pl)
     try:
