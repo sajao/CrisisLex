@@ -54,6 +54,8 @@ if __name__ == "__main__":
                   metavar="PROXY", default = "")
     (options, args) = parser.parse_args()
 
+    print "Configuring query settings ...."
+
     #set proxy
     if len(options.proxy) != 0:
         os.environ['http_proxy']= options.proxy
