@@ -10,6 +10,7 @@ import os
 import glob
 import networkx as nx
 from optparse import OptionParser
+from nltk.stem.porter import PorterStemmer
 
 import read
 import config
@@ -131,7 +132,8 @@ def reverse_stemmed_terms_set(stemmed_terms, reverse_stemming, reverse_bigrams_s
                 exit("I can't reverse the bi-gram: The \"%s\" bi-gram was not stemmed"%w)
         else:
             if w in reverse_stemming:
-                terms.append(reverse_stemming[w])
+                rev = reverse_stemming[w]
+                terms.append(rev)
             else:
                 exit("I can't reverse the uni-gram: The \"%s\" uni-gram was not stemmed"%w)
     return terms
@@ -157,13 +159,14 @@ def reverse_stemming_bigrams(stem_bigrams_map):
     return reverse_stemming(stem_bigrams_map)
 
 # writes the lexicon to file
-def save_lexicon(output, scored_terms, score):
+def save_lexicon(output, scored_terms, term_freq, stem, score):
+    ps = PorterStemmer()
     f1 = open(output, "w")
     f2 = open(output[0:len(output)-len(output.split(".")[len(output.split("."))-1])-1]+"_with_scores_%s.txt"%score,"w")
     print "Saving the lexicon to file..."
-    for t in scored_terms:
+    for i,t in enumerate(scored_terms):
         print>>f1,t[0]
-        print>>f2,"%s,%s"%(t[0],t[1])
+        print>>f2,"%s,%s,%s"%(t[0],t[1],term_freq[stem[i]])
     print "The Lexicon is ready!"
 
 if __name__ == "__main__":
@@ -197,6 +200,13 @@ if __name__ == "__main__":
     stem_map, bigrams_map = dict(), dict()
     collections = set()
 
+    #set discriminative functions
+    scoring_options = {'pmi':lexicon.Lexicon.pmi_polarity_metric,'chi2':lexicon.Lexicon.chi2_metric,'frequency':lexicon.Lexicon.frequency_metric}
+    try:
+        discriminative_function = scoring_options[options.test]
+    except:
+        exit("The terms scoring parameter accepts only the following options: pmi, chi2, frequency")
+
     #extracts terms and computes statistics about them
     print "Extracting the data..."
     labeled_collections = glob.glob(options.input+"/*")
@@ -211,12 +221,6 @@ if __name__ == "__main__":
             collections.add(c)
             tweets_cls[c], tweets_terms[c], wd_occ[c], word_set[c], fd[c] = read.get_terms(labeled_data, stem_map, bigrams_map)
     print "Done with reading..."
-    #set discriminative functions
-    scoring_options = {'pmi':lexicon.Lexicon.pmi_polarity_metric,'chi2':lexicon.Lexicon.chi2_metric,'frequency':lexicon.Lexicon.frequency_metric}
-    try:
-        discriminative_function = scoring_options[options.test]
-    except:
-        exit("The terms scoring parameter accepts only the following options: pmi, chi2, frequency")
 
     term_weights, occs, fd_all = get_raw_lexicon(collections, tweets_terms, word_set, tweets_cls, wd_occ, fd, get_aggregated_score, discriminative_function, options.hit_ratio)
     if options.optimization:
@@ -227,4 +231,4 @@ if __name__ == "__main__":
     top_stemmed = [t for t in sorted(term_weights, key=term_weights.get, reverse=True) if ((not options.optimization) or (options.optimization and t in optimized_terms))][:config.lexicon_size]
     top = reverse_stemmed_terms_set(top_stemmed, reverse_stemming(stem_map), reverse_stemming_bigrams(bigrams_map))
     sorted_terms_weights = [(top[i],term_weights[t]) for (i,t) in enumerate(top_stemmed)]
-    save_lexicon(options.output, sorted_terms_weights, options.test)
+    save_lexicon(options.output, sorted_terms_weights, fd_all, top_stemmed, options.test)

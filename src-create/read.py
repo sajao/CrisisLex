@@ -32,12 +32,14 @@ def get_stemmed_terms_list(doc, stem_words_map = None, stem_bigrams_map = None):
                 if b not in stem_bigrams_map:
                     stem_bigrams_map[b] = dict()
                 stem_bigrams_map[b][bigram_org] = stem_bigrams_map[b].get(bigram_org, 0)+1
+
     return word_list, bigrams
 
 # keeps track of the exact form of the stemmed bigrams, not only the one of the words
 def get_tweet_terms(tweet, stem_map = None, bigrams_map = None):
     words, bigrams = get_stemmed_terms_list(tweet, stem_map, bigrams_map)
     filtered_words = [w for w in words if not w in stopwords.words('english')]
+
     bigrams = nltk.bigrams(filtered_words)
     words_set = set(filtered_words)
     terms_dict = {}
@@ -47,9 +49,10 @@ def get_tweet_terms(tweet, stem_map = None, bigrams_map = None):
 
     for b in bigrams:
         terms_dict['%s %s'%(b[0],b[1])] = 'y'
+
     return terms_dict
 
-def get_terms(ifile, stem_map = None, bigrams_map = None, min_occurence = 0.1):
+def get_terms(ifile, stem_map = None, bigrams_map = None, min_occurence = 0.001):
     tweets_cls = []
     tweets_type = []
     tweets_terms = []
@@ -59,9 +62,11 @@ def get_terms(ifile, stem_map = None, bigrams_map = None, min_occurence = 0.1):
     wd_occ = dict()
     fd = nltk.FreqDist()
     r = csv.reader(ifile)
+
     print "Reading..."
     headers = r.next()
     for tokens in r:
+        tweets_no += 1
         id = tokens[0].strip()
         tweet = tokens[1].strip()
         cls = tokens[2].strip()
@@ -73,6 +78,7 @@ def get_terms(ifile, stem_map = None, bigrams_map = None, min_occurence = 0.1):
         tweets_terms.append(terms)
         [fd.inc(x) for x in terms]
         ws.update(set(terms.keys()))
+    print "... %s tweets"%tweets_no
 
     print "Cleaning..."
     for t in tweets_terms:
@@ -90,4 +96,5 @@ def get_terms(ifile, stem_map = None, bigrams_map = None, min_occurence = 0.1):
         for f in s:
             del t[f]
             ws.discard(f)
+
     return tweets_cls, tweets_terms, wd_occ, ws, fd
