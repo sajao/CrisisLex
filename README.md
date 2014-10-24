@@ -3,7 +3,7 @@ CrisisLex
 
 CrisisLex (http://CrisisLex.org/) is a repository of crisis-related social media data and tools. Currently it includes collections of crisis tweets and a lexicon of crisis terms. It also includes tools to help you create these collections and lexicons.
 
-This repository contains the following sub-directories (Work-in-Progress):
+This repository contains the following sub-directories:
 
 data/
 -----
