@@ -35,27 +35,28 @@ Options:
 ```
 
 **Note:**
+
 * If "--top_div" is set, the script constructs the co-occurance graph among discriminative terms and estimates the maximum weighted independent set on this graph, which is returned. To estimate this set we use a greedy that selects at each step the most discriminative terms and remove those that co-occur with them. If you are also interested in testing the heuristic based on identifying the minimum weighted coverage set check (Bar-Yehuda and Even 1985) or drop us an email. 
-* We recommend to generate the lexicon based on more collections as the script favors terms that frequently appear in multiple collections (e.g., divide your data based on sub-topics).
+* We recommend to generate the lexicon based on more collections as the script favors terms that frequently appear in multiple collections (e.g., divide your data based on sub-topics). 
+* Ensure that you have tweets belonging to both classes you consider (e.g., "on-topic" and "off-topic")
 
-Dependencies
-------------
-The scripts depend on the following external libraries (which you might consider installing in this order):
-* [Scipy](http://www.scipy.org)
-* [Numpy](http://www.numpy.org)
-* [NLTK (including the data)](http://www.nltk.org)
-* [scikit-learn](http://scikit-learn.org)
-* [networkx](http://networkx.github.io)
-
-Note that only Python 2.7 is supported.
+Requirements & Dependencies
+---------------------------
+* The input collections are expected to be formated as [CrisisLexT6](https://github.com/sajao/CrisisLex/tree/master/data/CrisisLexT6), i.e., one folder per collection containing a comma separated value (.csv) files with one labeled tweet (as belonging to one of two classes) per line with the following format: tweet id, tweet text, tweet label. 
+* For the scripts to work properly, we also recommend to include a similar volume of tweets belonging to the positive (e.g., on-topic) and the negative (e.g., off-topic) classes.  
+* Note that only Python 2.7 is supported.
+* The scripts depend on the following external libraries (which you might consider installing in this order):
+	* [Scipy](http://www.scipy.org)
+	* [Numpy](http://www.numpy.org)
+	* [NLTK (including the data)](http://www.nltk.org)
+	* [Scikit-learn](http://scikit-learn.org)
+	* [Networkx](http://networkx.github.io)
 
 Questions/inquiries
 -------------------
 
 [Olteanu et al. 2014]
-Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg:
-"CrisisLex: A Lexicon for Collecting and Filtering Microblogged
-Communications in Crises". ICWSM 2014.
+Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg: "[CrisisLex: A Lexicon for Collecting and Filtering Microblogged Communications in Crises](http://crisislex.org/papers/icwsm2014_crisislex.pdf)". In Proceedings of the AAAI Conference on Weblogs and Social Media (ICWSM'14). AAAI Press, Ann Arbor, MI, USA.
 
 For further inquiries, please contact:
  * [Alexandra Olteanu](mailto:alexandra.olteanu@epfl.ch)

@@ -62,8 +62,8 @@ Options:
 **Note:**
 * The addaptive collector implements a simple pseudo-relevance mechanism that ranks terms based on their frequency in the pseudo-relevant documents. For more details about it, or how to implement the label propagation based mechanism or the optimizations based on terms co-occurance check the [CrisisLex paper](http://crisislex.org/icwsm2014_crisislex.pdf) or drop us an email. 
 
-Requirements
-------------
+Requirements & Dependencies
+---------------------------
  * You need a set of Twitter API keys. To obtain the API keys, you have to first create a Twitter app via https://dev.twitter.com/apps and edit the config.py file. 
  * Only Python 2.7 is supported
  * The adaptive data collector depends on the following external libraries:
@@ -76,9 +76,7 @@ Questions/inquiries
 -------------------
 
 [Olteanu et al. 2014]
-Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg:
-"CrisisLex: A Lexicon for Collecting and Filtering Microblogged
-Communications in Crises". ICWSM 2014.
+Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg: "[CrisisLex: A Lexicon for Collecting and Filtering Microblogged Communications in Crises](http://crisislex.org/papers/icwsm2014_crisislex.pdf)". In Proceedings of the AAAI Conference on Weblogs and Social Media (ICWSM'14). AAAI Press, Ann Arbor, MI, USA.
 
 For further inquiries, please contact:
  * [Alexandra Olteanu](mailto:alexandra.olteanu@epfl.ch)
