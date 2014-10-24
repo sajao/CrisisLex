@@ -20,8 +20,8 @@ src-create/
 
 The directory `src-create/` contains the scripts that can be used to create a new lexicon based on labeled tweets.
 
-Reference
----------
+References
+----------
 
 Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg: "[CrisisLex: A Lexicon for Collecting and Filtering Microblogged Communications in Crises](http://crisislex.org/papers/icwsm2014_crisislex.pdf)". In Proceedings of the AAAI Conference on Weblogs and Social Media (ICWSM'14). AAAI Press, Ann Arbor, MI, USA.
 
