@@ -1,14 +1,14 @@
 CrisisLex
 =========
 
-CrisisLex (http://CrisisLex.org/) is a lexical resource. Its main application is to help collect crisis-related messages from Twitter.
+CrisisLex (http://CrisisLex.org/) is a repository of crisis-related social media data and tools. Currently it includes collections of crisis tweets and a lexicon of crisis terms. It also includes tools to help you create these collections and lexicons.
 
 This repository contains the following sub-directories (Work-in-Progress):
 
 data/
 -----
 
-The directory `data/` contains tweets and keywords used or produced during the construction of the lexicon.
+The directory `data/` contains tweets and keywords used or produced during the construction of the lexicon or other analyses.
 
 src-collect/
 ------------
