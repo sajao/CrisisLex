@@ -72,7 +72,7 @@ if __name__ == "__main__":
     if len(options.lexicon) == 0:
         sys.exit("It is mandatory to provide a lexicon. " +
                  "Run the scrip with -h or --help to learn about options, or try from the script location: " +
-                 "python collect.py -l ../data/lexicon-v1/crisislex_recommended_v1.txt")
+                 "python collect.py -l ../data/CrisisLexRec/CrisisLexRec.txt")
 
     # get lexicon terms
     try:
