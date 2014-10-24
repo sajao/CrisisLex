@@ -1,0 +1,26 @@
+{
+    "name":"NYC train crash",
+    "size":{"kw_collection":1066,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 8,
+        "year":"2013",
+        "month":"Dec.",
+        "start_day":"2013-12-01"
+    }, 
+    "location":{
+        "country":"US",
+        "spread":"Focalized",
+        "location_description":"New York City",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Unintentional", 
+        "type":"Derailment"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/December_2013_Spuyten_Duyvil_derailment",
+    "keywords":["#NewYork derailment","NY derailment","NYC derailment","#MetroNorth derailment","#Spuyten Duyvil","#nyctrain","New York derailment","metro north derailment","#MetroNorth Derailment","NY train crash","NYC train crash","NewYork train crash","York train crash","#metronorth train crash","metro north crash","ny train derailed","york train derailed","nyc train derailed"]
+}

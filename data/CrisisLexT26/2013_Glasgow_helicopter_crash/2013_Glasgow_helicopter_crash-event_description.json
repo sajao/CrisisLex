@@ -1,0 +1,26 @@
+{
+    "name":"Glasgow helicopter crash",
+    "size":{"kw_collection":2558,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 30,
+        "year":"2013",
+        "month":"Nov.",
+        "start_day":"2013-11-29"
+    }, 
+    "location":{
+        "country":"UK",
+        "spread":"Focalized",
+        "location_description":"Glasgow",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Unintentional", 
+        "type":"Crash"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2013_Glasgow_helicopter_crash",
+    "keywords":["#prayerforglasgow","#helicopter","glasgow helicopter","#Clutha","helicopter crash"]
+}

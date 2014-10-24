@@ -1,0 +1,26 @@
+{
+    "name":"Colorado Floods",
+    "size":{"kw_collection":1778,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration": 21,
+        "year":2013,
+        "month":"Sep.",
+        "start_day":"2013-09-08"
+    }, 
+    "location":{
+        "country":"US",
+        "spread":"Diffused",
+        "location_description":"Colorado",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Hydrological", 
+        "type":"Floods"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2013_Colorado_floods",
+    "keywords":["#COfloodrelief","colorado floods","colorado flooding","#coloradoflood","#COflood","#opCOflood","#boulderflood","#Longmont"]
+}

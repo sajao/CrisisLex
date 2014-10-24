@@ -1,0 +1,26 @@
+{
+    "name":"Sardinia Floods",
+    "size":{"kw_collection":1143,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration": 13,
+        "year":2013,
+        "month":"Nov.",
+        "start_day":"2013-11-16"
+    }, 
+    "location":{
+        "country":"Italy",
+        "spread":"Diffused",
+        "location_description":"Sardinia",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Hydrological", 
+        "type":"Floods"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2013_Sardinia_floods",
+    "keywords":["sardinia floods","sardinia flooding","Cyclone Cleopatra","#CycloneCleopatra","#Sardinia","Sardegna alluvione","#cleopatra alluvione","#Sardegna"]
+}

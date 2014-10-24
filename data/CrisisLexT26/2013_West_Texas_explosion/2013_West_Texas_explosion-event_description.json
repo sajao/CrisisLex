@@ -1,0 +1,26 @@
+{
+    "name":"West Texas Explosion",
+    "size":{"kw_collection":14505,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 29,
+        "year":2013,
+        "month":"Apr.",
+        "start_day":"2013-04-17"
+    }, 
+    "location":{
+        "country":"US",
+        "spread":"Focalized",
+        "location_description":"West/Waco Texas",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Unintentional", 
+        "type":"Explosion"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/West_Fertilizer_Company_explosion",
+    "keywords":["#westexplosion","west explosion","waco explosion","texas explosion","texas fertilizer","prayfortexas","prayforwest","waco tx","west tx","west texas","waco texas","#west","#waco","westexplosion","west explosion","waco explosion","tx explosion","fertilizer explosion","prayfortexas","prayforwest","westtx","wacotx","west texas","waco texas","west tx","waco tx","texas fertilizer","west fertilizer","waco fertilizer"]
+}

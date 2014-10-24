@@ -1,0 +1,26 @@
+{
+    "name":"Costa Rica earthquake",
+    "size":{"kw_collection":2193,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 13,
+        "year":2012,
+        "month":"Sep.",
+        "start_day":"2012-09-04"
+    }, 
+    "location":{
+        "country":"Costa Rica",
+        "spread":"Diffused",
+        "location_description":"Costa Rica",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Geophysical", 
+        "type":"Earthquake"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2012_Costa_Rica_earthquake",
+    "keywords":["#temblorcr","#terremotocr","#costarica","#terremoto","costa rica quake","costa rica earthquake","costa rica temblor","costa rica terremoto","#CReq","Costa Rican quake","Costa Rican earthquake","#quake","#earthquake"]
+}

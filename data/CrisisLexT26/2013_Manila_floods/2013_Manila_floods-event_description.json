@@ -1,0 +1,26 @@
+{
+    "name":"Manila Floods",
+    "size":{"kw_collection":2032,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration": 11,
+        "year":2013,
+        "month":"Aug.",
+        "start_day":"2013-08-17"
+    }, 
+    "location":{
+        "country":"Phillipines",
+        "spread":"Diffused",
+        "location_description":"Manila",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Hydrological", 
+        "type":"Floods"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/Tropical_Storm_Trami_(2013)",
+    "keywords":["baha manila","#MaringPH","#rescueph","#reliefPH","#FloodsPH","#PrayForThePhilippine","manila flood","manila floods","philippine floods","philippine flood","#FloodPH","#PHalert","#safenow","#trafficPH","#habagat","#Maring","#MaringUpdates"]
+}

@@ -1,0 +1,26 @@
+{
+    "name":"Boston Bombings",
+    "size":{"kw_collection":157454,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 60,
+        "year":2013,
+        "month":"Apr.",
+        "start_day":"2013-04-15"
+    }, 
+    "location":{
+        "country":"US",
+        "spread":"Focalized",
+        "location_description":"Boston",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Intentional", 
+        "type":"Bombings"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/Boston_Marathon_bombings",
+    "keywords":["boston explosion","boston explosions","boston blast","boston blasts","boston tragedies","boston tragedy","prayforboston","boston attack","boston attacks","boston terrorist","boston terrorists","boston tragic","bostonmarathon","boston marathon","boston explosive","boston bomb","boston bombing","Dzhokhar","Tsarnaev","marathon attack","marathon explosion","marathon explosions","marathon tragedies","marathon tragedy","marathon blasts","marathon blast","marathon attacks","marathon bomb","marathon bombing","marathon explosive"]
+}

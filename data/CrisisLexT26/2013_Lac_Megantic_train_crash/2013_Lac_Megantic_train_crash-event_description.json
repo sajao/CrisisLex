@@ -1,0 +1,26 @@
+{
+    "name":"Lac-Megantic train crash",
+    "size":{"kw_collection":2342,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 14,
+        "year":"2013",
+        "month":"Jul.",
+        "start_day":"2013-07-06"
+    }, 
+    "location":{
+        "country":"Canada",
+        "spread":"Focalized",
+        "location_description":"Lac-Megantic, Quebec",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Unintentional", 
+        "type":"Derailment"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/Lac-Mégantic_derailment",
+    "keywords":["#LacMegantic","#LacMégantic","#LacMég","#LacMeg","#tragedielacmegantic","#TragédieLacMégantic","#Mégantic","Lac Mégantic","Lac Megantic","Quebec train explosion","Quebec train derailment","Quebec train crash","Quebec oil train","Canada train oil","Canada train oil","Canadian train oil"]
+}

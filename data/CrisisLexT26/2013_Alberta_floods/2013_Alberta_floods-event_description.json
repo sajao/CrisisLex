@@ -1,0 +1,26 @@
+{
+    "name":"Alberta Floods",
+    "size":{"kw_collection":5887,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration": 25,
+        "year":2013,
+        "month":"Jun.",
+        "start_day":"17/06/2013"
+    }, 
+    "location":{
+        "country":"Canada",
+        "spread":"Diffused",
+        "location_description":"Alberta",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Hydrological", 
+        "type":"Floods"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2013_Alberta_floods",
+    "keywords":["alberta flood","#abflood","canada flood","alberta flooding","alberta floods","canada flooding","canada floods","#yycflood","#yycfloods","#yycflooding","calgary flood","calgary flooding","calgary floods"]
+}

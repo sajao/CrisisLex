@@ -1,0 +1,26 @@
+{
+    "name":"Philipinnes Floods",
+    "size":{"kw_collection":2950,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration": 13,
+        "year":2012,
+        "month":"Aug.",
+        "start_day":"2012-08-01"
+    }, 
+    "location":{
+        "country":"Philipinnes",
+        "spread":"Diffused",
+        "location_description":"Philipinnes",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Hydrological", 
+        "type":"Floods"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2012_Metro_Manila_flooding",
+    "keywords":["#rescueph","#reliefPH","#FloodsPH","#PrayForThePhilippine","manila flood","manila floods","philippine floods","philippine flood","#FloodPH","#PHalert","#Habagat"]
+}

@@ -1,0 +1,26 @@
+{
+    "name":"Guatemala earthquake",
+    "size":{"kw_collection":3261,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 20,
+        "year":2012,
+        "month":"Nov.",
+        "start_day":"2012-11-06"
+    }, 
+    "location":{
+        "country":"Guatemala",
+        "spread":"Diffused",
+        "location_description":"Guatemala",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Geophysical", 
+        "type":"Earthquake"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2012_Guatemala_earthquake",
+    "keywords":["#sismo","#Guatemala","TiemblaenGuate","TemblorGT","TerremotoGT","temblor guatemala","terremoto guatemala","sismo guatemala","earthquake guatemala","quake guatemala","#SanMarcos","#terremotoguatemala","#tremorguatemala"]
+}

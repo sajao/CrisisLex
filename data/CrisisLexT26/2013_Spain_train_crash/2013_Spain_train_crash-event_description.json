@@ -1,0 +1,26 @@
+{
+    "name":"Spain train crash",
+    "size":{"kw_collection":3681,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 15,
+        "year":"2013",
+        "month":"Jul.",
+        "start_day":"2013-07-24"
+    }, 
+    "location":{
+        "country":"Spain",
+        "spread":"Focalized",
+        "location_description":"Santiago de compostela",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Unintentional", 
+        "type":"Derailment"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/Santiago_de_Compostela_derailment",
+    "keywords":["Compostela train","spain train","tren Compostela","españa tren","#SantiagoCompostela","#AccidenteSantiago"]
+}

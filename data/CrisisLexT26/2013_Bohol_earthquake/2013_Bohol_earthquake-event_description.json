@@ -1,0 +1,26 @@
+{
+    "name":"Bohol earthquake",
+    "size":{"kw_collection":2214,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 12,
+        "year":2013,
+        "month":"Oct.",
+        "start_day":"2013-10-14"
+    }, 
+    "location":{
+        "country":"Phillipines",
+        "spread":"Diffused",
+        "location_description":"Phillipines",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Geophysical", 
+        "type":"Earthquake"
+    }, 
+    "external_url":"http://en.wikipedia.org/wiki/2013_Bohol_earthquake",
+    "keywords":["#phquake","#pheq","#phtrenchquake","philippines earthquake","philippines quake","ph earthquake","ph quake","#phtrenchquake","#PrayForThePhilippines","#rescueph","#reliefPH","#TabangBohol","#TabangCebu","#bohol","#cebu","prayforvisayas","prayforbohol","#lindol"]
+}

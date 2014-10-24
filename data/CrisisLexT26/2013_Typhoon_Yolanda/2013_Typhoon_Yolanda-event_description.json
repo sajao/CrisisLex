@@ -1,0 +1,26 @@
+{
+    "name":"Typhoon Yolanda",
+    "size":{"kw_collection":38951,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration": 58,
+        "year":2013,
+        "month":"Nov.",
+        "start_day":"2013-11-02"
+    }, 
+    "location":{
+        "country":"Phillipines",
+        "spread":"Diffused",
+        "location_description":"Phillipines",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Meteorological", 
+        "type":"Typhoon"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/Typhoon_Haiyan",
+    "keywords":["#typhoonyolanda","#YolandaPH","#yolanda","#haiyan","#TracingPH","#FloodPH","#SafeNow","#RescuePH","#ReliefPH","typhoon Yolanda","Typhoon Haiyan","typhoon philippines","#typhoonhaiyan","#typhoonaid","#Philippines","#typhoon","#supertyphoon","#redcrossphilippines","#YolandaActionWeekend","Rescue PH","typhoon ph","Super Typhoon"]
+}

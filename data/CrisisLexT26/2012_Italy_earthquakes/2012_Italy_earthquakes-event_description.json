@@ -1,0 +1,26 @@
+{
+    "name":"Italy earthquakes",
+    "size":{"kw_collection":7351,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 32,
+        "year":2012,
+        "month":"May",
+        "start_day":"2012-05-18"
+    }, 
+    "location":{
+        "country":"Italy",
+        "spread":"Diffused",
+        "location_description":"Modena",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Geophysical", 
+        "type":"Earthquake"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2012_Northern_Italy_earthquakes",
+    "keywords":["earthquake italy","quake italy","#modena","#sanfelice","San Felice","modena terremoto","modena earthquake","modena quake","#norditalia","terremoto italia","#terremoto"]
+}

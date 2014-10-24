@@ -1,0 +1,26 @@
+{
+    "name":"Savar building collapse",
+    "size":{"kw_collection":4070,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 36,
+        "year":2013,
+        "month":"Apr.",
+        "start_day":"2013-04-23"
+    }, 
+    "location":{
+        "country":"Bangladesh",
+        "spread":"Focalized",
+        "location_description":"Savar",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Unintentional", 
+        "type":"Collapse"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2013_Savar_building_collapse",
+    "keywords":["#Savar","#Bangladesh","Bangladesh collapse","#ranaplaza","Savar Bangladesh","Savar collapse","Rana Plaza"]
+}

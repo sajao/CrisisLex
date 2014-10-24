@@ -1,0 +1,26 @@
+{
+    "name":"Brazil nightclub fire",
+    "size":{"kw_collection":4786,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 16,
+        "year":2013,
+        "month":"Jan.",
+        "start_day":"2013-10-14"
+    }, 
+    "location":{
+        "country":"Brazil",
+        "spread":"Focalized",
+        "location_description":"Santa Maria",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Unintentional", 
+        "type":"Fire"
+    }, 
+    "external_url":"http://en.wikipedia.org/wiki/Kiss_nightclub_fire",
+    "keywords":["#ForçaSantaMaria","boate Kiss","#boatekiss","#SantaMaria","#tragédiaemSM","#tragediaemSM","#TODOSDesejamForçasASantaMaria","#BrazilFire","#Brazil fire","Brazil nightclub","#BrasilDesejaForçasAsVitimasDeSantaMaria","#PrayForSantaMaria","#PrayForBrazil"]
+}

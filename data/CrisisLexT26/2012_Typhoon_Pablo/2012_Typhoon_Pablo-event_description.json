@@ -1,0 +1,26 @@
+{
+    "name":"Typhoon Pablo",
+    "size":{"kw_collection":1944,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration":21,
+        "year":2012,
+        "month":"Nov.",
+        "start_day":"2012-11-24"
+    }, 
+    "location":{
+        "country":"Phillipines",
+        "spread":"Diffused",
+        "location_description":"Phillipines",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Meteorological", 
+        "type":"Typhoon"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/Typhoon_Bopha",
+    "keywords":["#PabloPh","#ReliefPH","#Bopha","#TYPHOONPABLO","#TYPHOONBOPHA","Typhoon Bopha","Typhoon Pablo","#bopha","#pablo","#typhoon","#walangpasok","#Mindanao","#Visayas","#Hinatuan","#rescuePH","#pablosafetytips","#CDO","#StrongerPH"]
+}

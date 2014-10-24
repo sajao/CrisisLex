@@ -1,0 +1,26 @@
+{
+    "name":"Russian meteor",
+    "size":{"kw_collection":8365,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 19,
+        "year":2013,
+        "month":"Feb.",
+        "start_day":"2013-02-14"
+    }, 
+    "location":{
+        "country":"Russia",
+        "spread":"Focalized",
+        "location_description":"Chelyabinsk",
+        "country_internet_penetration": null 
+    },
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Others", 
+        "type":"Meteorite"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/Chelyabinsk_meteor",
+    "keywords":["#метеорит","#meteor","#meteorite","russia meteor","russian meteor","#RussianMeteor","#Chelyabinsk","#челябинск"]
+}

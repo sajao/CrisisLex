@@ -1,0 +1,26 @@
+{
+    "name":"LA Airport Shootings",
+    "size":{"kw_collection":2730,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 12,
+        "year":2013,
+        "month":"Nov.",
+        "start_day":"2013-11-01"
+    }, 
+    "location":{
+        "country":"US",
+        "spread":"Focalized",
+        "location_description":"Los Angeles",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Intentional", 
+        "type":"Shootings"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2013_Los_Angeles_International_Airport_shooting",
+    "keywords":["LAX shooting","LAX shootings","Lax shooter","Lax suspect","#LAXShooting","Lax airport","#LAX","airport shooting","airport shootings","#losangeles airport","lax victims"]
+}

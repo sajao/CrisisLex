@@ -1,0 +1,26 @@
+{
+    "name":"Australia wildfires",
+    "size":{"kw_collection":1982,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration": 21,
+        "year":2013,
+        "month":"Oct.",
+        "start_day":"2013-10-12"
+    }, 
+    "location":{
+        "country":"Australia",
+        "spread":"Diffused",
+        "location_description":"New South Wales",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Climatological", 
+        "type":"Wildfire"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2013_New_South_Wales_bushfires",
+    "keywords":["#nswfires","#nswbushfire","#nswbushfires","#nswrfs","#sydneybushfire","#sydneyfire","#sydneyfires","#sydneybushfires","nsw #bushfire","#redoctober","australia #bushfire","#Faulconbridge","#nswrfs","#bushfire sydney","nsw fire","#PrayForAustralia","#prayfornsw","australia fire","sydney fire","nsw fires","australia fires","sydney fires","prayfornsw"]
+}

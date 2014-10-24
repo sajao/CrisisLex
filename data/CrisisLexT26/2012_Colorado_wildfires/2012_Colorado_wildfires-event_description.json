@@ -1,0 +1,26 @@
+{
+    "name":"Colorado wildfires",
+    "size":{"kw_collection":4172,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration": 31,
+        "year":2012,
+        "month":"Jun.",
+        "start_day":"2012-06-08"
+    }, 
+    "location":{
+        "country":"US",
+        "spread":"Diffused",
+        "location_description":"Colorado",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Natural", 
+        "sub_category":"Climatological", 
+        "type":"Wildfire"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2012_Colorado_wildfires",
+    "keywords":["#COfire","#BoulderFire","#Colorado","#Wildfire","#WaldoCanyonFire","#WaldoFire","#waldocanyon","Colorado Springs","#HighParkFire","#FlagstaffFire","#LittleSandFire","#TreasureFire","#StateLineFire","#SpringerFire","#LastChanceFire","#FourmileFire","#4mileFire","#FourmileCanyonFire","#BoulderFire","#BisonFire","colorado wildfire","colorado wildfires","colorado fire","colorado fires","boulder fire","boulder fires","boulder wildfires","boulder wildfires"]
+}

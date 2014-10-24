@@ -1,0 +1,26 @@
+{
+    "name":"Singapore Haze",
+    "size":{"kw_collection":3639,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Progressive",
+        "duration": 19,
+        "year":2013,
+        "month":"Jun.",
+        "start_day":"2013-06-17"
+    }, 
+    "location":{
+        "country":"Singapore",
+        "spread":"Diffused",
+        "location_description":"Singapore",
+        "country_internet_penetration": null
+    }, 
+    "categorization":{
+        "category":"Mixed", 
+        "sub_category":"Others", 
+        "type":"Haze"
+    },
+    "external_url":"http://en.wikipedia.org/wiki/2013_Southeast_Asian_haze",
+    "keywords":["#SGHaze","Singapore Haze","#hazyday","blamethehaze","mustbehaze","#sg #haze","Singapore #hazy"]
+}

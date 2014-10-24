@@ -1,0 +1,26 @@
+{
+    "name":"Venezuela refinery explosion",
+    "size":{"kw_collection":2736,
+            "geo_collection":null
+    },
+    "time":{
+        "development":"Instantaneous",
+        "duration": 12,
+        "year":2012,
+        "month":"Aug.",
+        "start_day":"2012-08-24"
+    }, 
+    "location":{
+        "country":"Venezuela",
+        "spread":"Focalized",
+        "location_description":"Falcon",
+        "country_internet_penetration":null
+    }, 
+    "categorization":{
+        "category":"Human-induced", 
+        "sub_category":"Unintentional", 
+        "type":"Explosion"
+    }, 
+    "external_url":"http://en.wikipedia.org/wiki/Paraguaná_Refinery_Complex#2012_explosion",
+    "keywords":["Paraguana Refinery","venezuela refinery","Paraguaná Refinery","#Paraguana","#Paraguaná","Amuay Refinery","Venezuelan refinery","#Amuay","Paraguaná refinería","Paraguana refineria","Amuay refineria","amuay refinería","#Falcon","#Falcón","Refinería venezuela","Refineria venezuela","Refinería paraguana"]
+}

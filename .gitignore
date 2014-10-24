@@ -1,6 +1,4 @@
 *.py[cod]
-*.json
-
 
 # C extensions
 *.so
@@ -38,7 +36,8 @@ nosetests.xml
 .pydevproject
 .idea/
 *~
-
+src-collect/*.json
+src-create/*.json
 src-collect/*.txt
 src-create/*.txt
 src-collect/*.csv
