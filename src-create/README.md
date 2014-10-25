@@ -5,7 +5,7 @@ The director contains scripts that allows anyone to easily build a new lexicon f
 
 Build a Lexicon
 ------------------------
-Given few Twitter collections from a domain of interest, the scripts generate a lexicon consisting of a set of terms (unigrams and bigrams) that are discriminative for the targeted domain. 
+Given few Twitter collections including both tweets that relevant for the domain of interest as well as tweets that are not relevant, the scripts generate a lexicon consisting of a set of terms (unigrams and bigrams) that are discriminative for the targeted domain. 
 
 **Parameters**
 
@@ -25,7 +25,7 @@ Options:
                         Write output to FILE. The script will write one term
                         per line
   -i FILE, --input=FILE
-                        Read from FILE_PATH. The FILE_PATH is expected to
+                        Read from FILE. The FILE is expected to
                         point to a director containing one sub-director per
                         collection. It assumes that each collection file
                         contains a header and on each line has: tweet id,
@@ -36,13 +36,14 @@ Options:
 
 **Note:**
 
-* If "--top_div" is set, the script constructs the co-occurance graph among discriminative terms and estimates the maximum weighted independent set on this graph, which is returned. To estimate this set we use a greedy that selects at each step the most discriminative terms and remove those that co-occur with them. If you are also interested in testing the heuristic based on identifying the minimum weighted coverage set check (Bar-Yehuda and Even 1985) or drop us an email. 
+* Ensure that you have tweets belonging to both "on_topic" and "off_topic" classes with respect to the domain of interest.
+* If "--top_div" is set, the script constructs the co-occurance graph among the discriminative terms and estimates the maximum weighted independent set on this graph, which is returned. To estimate this set we use a greedy algorithm that selects at each step the most discriminative terms and remove those that co-occur with them. If you are also interested in testing the heuristic based on identifying the minimum weighted coverage set check (Bar-Yehuda and Even 1985) or drop us an email. 
 * We recommend to generate the lexicon based on more collections as the script favors terms that frequently appear in multiple collections (e.g., divide your data based on sub-topics). 
-* Ensure that you have tweets belonging to both classes you consider (e.g., "on-topic" and "off-topic")
 
 Requirements & Dependencies
 ---------------------------
-* The input collections are expected to be formated as [CrisisLexT6](https://github.com/sajao/CrisisLex/tree/master/data/CrisisLexT6), i.e., one folder per collection containing a comma separated value (.csv) files with one labeled tweet (as belonging to one of two classes) per line with the following format: tweet id, tweet text, tweet label. 
+* The input collections are expected to be formated as [CrisisLexT6](https://github.com/sajao/CrisisLex/tree/master/data/CrisisLexT6), i.e., one folder per collection containing comma separated value (.csv) files with one labeled tweet per line and the following format: tweet id, tweet text, tweet label.
+* To set the labels corresponding to the on_ and off_topic classes, or the size of the lexicon, edit the *config.py* file. 
 * For the scripts to work properly, we also recommend to include a similar volume of tweets belonging to the positive (e.g., on-topic) and the negative (e.g., off-topic) classes.  
 * Note that only Python 2.7 is supported.
 * The scripts depend on the following external libraries (which you might consider installing in this order):
