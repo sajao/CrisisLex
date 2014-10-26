@@ -32,12 +32,12 @@ tweet id, tweet text, tweet label
 Questions/inquiries
 -------------------
 
-[Olteanu et al. 2014]
-Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg:
-"CrisisLex: A Lexicon for Collecting and Filtering Microblogged
-Communications in Crises". ICWSM 2014.
+[Olteanu et al. 2014] Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg: "CrisisLex: A Lexicon for Collecting and Filtering Microblogged Communications in Crises". ICWSM 2014.
 
-For further inquiries, please contact:
- * [Alexandra Olteanu](mailto:alexandra.olteanu@epfl.ch)
- * [Carlos Castillo](mailto:chato@acm.org)
+For inquiries please contact [Alexandra Olteanu](mailto:alexandra.olteanu@epfl.ch), or Carlos Castillo, or Fernando Diaz, or Sarah Vieweg.
+
+Version history
+---------------
+
+ * 2014-10-26: v1.0, initial release containing labeled tweets only.
 
