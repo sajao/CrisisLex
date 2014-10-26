@@ -56,9 +56,13 @@ Requirements & Dependencies
 Questions/inquiries
 -------------------
 
-[Olteanu et al. 2014]
-Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg: "[CrisisLex: A Lexicon for Collecting and Filtering Microblogged Communications in Crises](http://crisislex.org/papers/icwsm2014_crisislex.pdf)". In Proceedings of the AAAI Conference on Weblogs and Social Media (ICWSM'14). AAAI Press, Ann Arbor, MI, USA.
+[Olteanu et al. 2014] Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg: "[CrisisLex: A Lexicon for Collecting and Filtering Microblogged Communications in Crises](http://crisislex.org/papers/icwsm2014_crisislex.pdf)". In Proceedings of the AAAI Conference on Weblogs and Social Media (ICWSM'14). AAAI Press, Ann Arbor, MI, USA.
 
-For further inquiries, please contact:
- * [Alexandra Olteanu](mailto:alexandra.olteanu@epfl.ch)
- * [Carlos Castillo](mailto:chato@acm.org)
+For inquiries please contact [Alexandra Olteanu](mailto:alexandra.olteanu@epfl.ch), or Carlos Castillo, or Fernando Diaz, or Sarah Vieweg.
+
+Version history
+---------------
+
+ * 2014-10-26: v1.0 release.
+ * 2014-07-14: pre-release.
+
