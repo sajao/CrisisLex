@@ -1,0 +1,49 @@
+#News Values Annotation
+
+Help researchers to categorize Climate Change related events that happen in 2013 and 2014.  These events have received a good deal of attention in Online News Media, on Twitter, or both.  Please follow the provided links, and categorize the events according to the following dimensions:
+
+Negativity: is this bad news?
+
+-- This is bad news, e.g.
+	Sinkhole swallows resort in Florida
+-- This is neutral news, e.g.
+	UN Climate Change Conference in Bonn
+-- This is good news, e.g.
+	Fresh water reserves found under ocean floor
+
+Conflict: are there two persons or groups in antagonism?
+
+-- This depicts a conflict between two opposing persons/groups, e.g.
+	EPA fines Shell for Arctic Air Violations
+-- This does not depict a conflict between two opposing persons/groups, e.g.
+	Yarnell Hill Fire
+
+Extraordinary: is this something out of the ordinary or rare, or is it something that normally happens?
+
+-- This is an ordinary event, e.g.
+	Texas family to install solar panels
+-- This is an extraordinary event, e.g.
+	Epic Drought in West is Literally Moving Mountains
+
+Predictability: could a member of the public have known this was going to happen, or not?
+
+-- A member of the public could not have know this will happen, e.g.
+	Google buys solar-powered drone maker Titan Aerospace
+-- A member of the public could have know this will happen, e.g.
+	People March for Climate in NYC 
+
+Magnitude: does this event affects a large number of people, has important consequences, or is of global interest (high magnitude); or it is hyper-local with no or limited consequences and involves a low number of people (low magnitude)?
+
+-- The magnitude of this event is high, e.g.
+	Air Pollution Linked to 1.2 Million Deaths in China
+-- The magnitude of this event is moderate, e.g.
+	California bans plastic bags, legislation signed 
+-- The magnitude of this event is low, e.g.
+	FoxNews tells scientist not to talk about climate change
+                
+Reference to elite persons: does it involve someone rich, powerful or famous?
+
+-- This involves someone rich, powerful, or famous, e.g.
+	Obama's Climate Change plan in Congress 
+-- This does not involve someone rich, powerful, or famous, e.g.
+	Species disappearing far faster than before
