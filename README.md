@@ -8,7 +8,7 @@ This repository contains the following sub-directories:
 data/
 -----
 
-The directory `data/` contains tweets and keywords used or produced during the construction of the lexicon or other analyses.
+The directory `data/` contains tweets, annotated data, and keywords used or produced during the construction of the lexicon or other analyses.
 
 src-collect/
 ------------
