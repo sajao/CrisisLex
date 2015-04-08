@@ -8,9 +8,7 @@ Events list file: 'covered_climate_events.csv'
 
 **Contents:** This file contains information about 350 events that received medium to high coverage in Twitter, mainstream media, or both, covering a period of 17 months in 2013 and 2014, and labeled by relevance to climate-change, triggers, actions, and 6 news values (i.e. extraordinary, unpredictable, high magnitude, negative, conflictive, and related to elite persons). Each label is the result of the majority voting among at least 5 crowdsourcing workers (3 crowdsourcing workers for the easier task of false positives removal).
 
-**Data Format:** One event per line with the following 16 comma-separated fields:
-
-*Media, Event, Peak Days, Sample URLs, Relatedness (crowd), Relatedness (authors), Primary Type (or trigger), Primary Sub-type (or action), Secondary Type (or trigger), Secondary Sub-type (or action), Negativity, Magnitude, Predictability, Elite persons, Conflict, Unexpectedness*
+**Data Format:** One event per line with the following 16 comma-separated fields: *Media, Event, Peak Days, Sample URLs, Relatedness (crowd), Relatedness (authors), Primary Type (or trigger), Primary Sub-type (or action), Secondary Type (or trigger), Secondary Sub-type (or action), Negativity, Magnitude, Predictability, Elite persons, Conflict, Unexpectedness*
 
 **Labels:**
 The file contains the following elements for each event:
