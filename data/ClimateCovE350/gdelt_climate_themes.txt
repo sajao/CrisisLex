@@ -1,4 +1,4 @@
-#Bootstrap theme
+#Initial/bootstrap theme
 ENV_CLIMATECHANGE 
 #Themes
 NATURAL_DISASTER_HURRICANES
