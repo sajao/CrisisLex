@@ -39,6 +39,7 @@ nosetests.xml
 src-collect/*.json
 src-create/*.json
 src-collect/*.txt
+src-collect/config_local.py
 src-create/*.txt
 src-collect/*.csv
 src-create/*.csv
