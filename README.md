@@ -27,7 +27,7 @@ Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg: "[CrisisLex: A 
 
 Alexandra Olteanu, Sarah Vieweg, Carlos Castillo. 2015. "[What to Expect When the Unexpected Happens: Social Media Communications Across Crises](http://crisislex.org/papers/cscw2015_transversal_study.pdf)". In Proceedings of the ACM 2015 Conference on Computer Supported Cooperative Work and Social Computing (CSCW '15). ACM, Vancouver, BC, Canada.
 
-Alexandra Olteanu, Carlos Castillo, Nicholas Diakopoulos, Karl Aberer. 2015. "Comparing Events Coverage in Online News and Social Media: The Case of Climate Change"". In Proceedings of the AAAI Conference on Web and Social Media (ICWSM'15). AAAI Press, Oxford, UK.
+Alexandra Olteanu, Carlos Castillo, Nicholas Diakopoulos, Karl Aberer. 2015. "[Comparing Events Coverage in Online News and Social Media: The Case of Climate Change](http://crisislex.org/papers/icwsm2015_climate_change_media_gap.pdf)". In Proceedings of the AAAI Conference on Web and Social Media (ICWSM'15). AAAI Press, Oxford, UK.
 
 Homepage
 --------
