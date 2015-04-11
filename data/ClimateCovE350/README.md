@@ -13,22 +13,22 @@ Events list file: 'covered_climate_events.csv'
 **Labels:**
 The file contains the following elements for each event:
 
- - *Media:* News or Twitter
- - *Event:* the event name in the form of a headline
- - *Time Interval:* the day or the interval in which we detected coverage spikes for the respective media and corresponding to the same event
- - *Sample URLs:* URLs of articles or tweets about the event
- - *Relatedness (crowd):* related to climate change, weakly related to climate change, not related to climate change
- - *Relatedness (authors):* yes (related to climate change), borderline (weakly related to climate change), no (not related to climate change)
- - *Primary/Secondary Type (or trigger):* disaster, for-profit (excl. media), govt (exec & legislative), individuals, media, NGOs/groups of people
- - *Primary/Secondary Sub-type (or action):* natural hazards, human-induced hazards, legal actions, meetings/conferences, generic (campaigns/statements/other), publication/studies/research
- - *Negativity:* this is good news, this is neither good nor bad news, this is bad news
- - *Magnitude:* the magnitude of this event is high, the magnitude of this event is moderate, the magnitude of this event is low
- - *Predictability:* a member of the public could not have know this will happen;
+ - `Media`: News or Twitter
+ - `Event`: the event name in the form of a headline
+ - `Time Interval`: the day or the interval in which we detected coverage spikes for the respective media and corresponding to the same event
+ - `Sample URLs`: URLs of articles or tweets about the event
+ - `Relatedness (crowd)`: related to climate change; weakly related to climate change; not related to climate change
+ - `Relatedness (authors)`: yes (related to climate change); borderline (weakly related to climate change); no (not related to climate change)
+ - `Primary/Secondary Type (or trigger)`: disaster; for-profit (excl. media); govt (exec & legislative); individuals; media; ngos/groups of people
+ - `Primary/Secondary Sub-type (or action)`: natural hazards; human-induced hazards; legal actions; meetings/conferences; generic (campaigns/statements/other); publication/studies/research
+ - `Negativity`: this is good news; this is neither good nor bad news; this is bad news
+ - `Magnitude`: the magnitude of this event is high; the magnitude of this event is moderate; the magnitude of this event is low
+ - `Predictability`: a member of the public could not have know this will happen;
 a member of the public could have know this will happen
- - *Elite persons:* this involves someone rich, powerful, or famous; this does not involve someone rich, powerful, or famous
- - *Conflict:* this depicts a conflict between two opposing persons/groups, 
+ - `Elite persons`: this involves someone rich, powerful, or famous; this does not involve someone rich, powerful, or famous
+ - `Conflict`: this depicts a conflict between two opposing persons/groups; 
 this does not depict a conflict between two opposing persons/groups
- - *Unexpectedness:* this is an ordinary event, this is an extraordinary event
+ - `Unexpectedness`: this is an ordinary event; this is an extraordinary event
  
 A description of the instructions given to crowdsourced workers in the news values annotation task can be found in the 'news_values_annotation_tasks_summary.txt'.
 
