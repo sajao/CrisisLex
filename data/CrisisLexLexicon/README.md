@@ -11,7 +11,7 @@ For details please consult the following reference:
 
 [Olteanu et al. 2014] Alexandra Olteanu, Carlos Castillo, Fernando Diaz, Sarah Vieweg: "CrisisLex: A Lexicon for Collecting and Filtering Microblogged Communications in Crises". ICWSM 2014.
 
-For inquiries please contact [Alexandra Olteanu](mailto:alexandra.olteanu@epfl.ch), or Carlos Castillo, or Fernando Diaz, or Sarah Vieweg.
+For inquiries please contact [Alexandra Olteanu](mailto:alexandra@aolteanu.com), or Carlos Castillo, or Fernando Diaz, or Sarah Vieweg.
 
 Version history
 ---------------

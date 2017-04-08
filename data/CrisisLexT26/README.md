@@ -9,7 +9,7 @@ Reference
 
 Questions/inquiries
 -------------------
-For inquiries please contact [Alexandra Olteanu](mailto:alexandra.olteanu@epfl.ch), or Sarah Vieweg, or Carlos Castillo.
+For inquiries please contact [Alexandra Olteanu](mailto:alexandra@aolteanu.com), or Sarah Vieweg, or Carlos Castillo.
  
 Version history
 ---------------

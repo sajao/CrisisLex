@@ -57,7 +57,7 @@ Reference
 
 Questions/inquiries
 -------------------
-For inquiries please contact [Alexandra Olteanu](mailto:alexandra.olteanu@epfl.ch), or Carlos Castillo, or Nicholas Diakopoulos, or Karl Aberer.
+For inquiries please contact [Alexandra Olteanu](mailto:alexandra@aolteanu.com), or Carlos Castillo, or Nicholas Diakopoulos, or Karl Aberer.
  
 Version history
 ---------------
